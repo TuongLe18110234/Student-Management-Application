@@ -1,0 +1,12 @@
+<resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="vn_home">Trang chủ</string>
+    <string name="vn_interaction">Tương tác</string>
+    <string name="vn_notification">Thông báo</string>
+    <string name="vn_account">Tài khoản</string>
+    <string name="vn_assignment">Assignment</string>
+    <string name="vn_tuition">Học phí</string>
+
+    <string name="vn_news">Tin tức</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

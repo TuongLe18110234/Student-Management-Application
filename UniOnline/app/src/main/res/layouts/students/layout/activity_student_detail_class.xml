@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Views.Students.StudentClassDetailActivity">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar" />
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/student_class_tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabTextAppearance="@style/CustomTextAppearanceTab">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_lesson"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lịch học" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_classInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thông tin lớp học" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/student_class_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

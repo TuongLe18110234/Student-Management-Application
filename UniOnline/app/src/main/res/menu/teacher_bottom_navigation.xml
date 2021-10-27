@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_teacher_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/vn_home" />
+    <item
+        android:id="@+id/nav_teacher_interaction"
+        android:icon="@drawable/ic_baseline_dashboard_24"
+        android:title="@string/vn_interaction" />
+    <item
+        android:id="@+id/nav_teacher_notification"
+        android:icon="@drawable/ic_baseline_notifications_active_24"
+        android:title="@string/vn_notification" />
+    <item
+        android:id="@+id/nav_teacher_account"
+        android:icon="@drawable/ic_baseline_account_box_24"
+        android:title="@string/vn_account" />
+</menu>

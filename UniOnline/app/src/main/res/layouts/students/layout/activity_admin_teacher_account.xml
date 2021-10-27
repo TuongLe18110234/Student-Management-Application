@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.Admin.AdminTeacherAccountActivity"
+    android:background="#FDFDFD"
+    android:id="@+id/giangvien_rootview">
+
+    <TextView
+        android:id="@+id/tv_header_quanly"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="#1F1D86"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="Danh sách Giảng viên"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/btn_add_quanly_giangvien"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_header_quanly"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginRight="21dp"
+        android:layout_marginBottom="11dp"
+        android:backgroundTint="#00FFFFFF"
+        android:src="@drawable/outline_library_add_white_24" />
+
+    <ImageButton
+        android:id="@+id/btn_back_quanly_giangvien"
+        android:layout_width="46dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_header_quanly"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="14dp"
+        android:backgroundTint="#00FFFFFF"
+        android:src="@drawable/icon_back_admin" />
+
+    <EditText
+        android:id="@+id/et_box_search_giangvien"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_below="@+id/tv_header_quanly"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/edittext_admin_searching"
+        android:gravity="center_vertical"
+        android:hint="Nhập để tìm kiếm..."
+        android:paddingLeft="20dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textColor="#535353"
+        android:textSize="14sp" />
+
+    <ImageButton
+        android:id="@+id/btn_admin_giangvien_search"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/et_box_search_giangvien"
+        android:layout_alignLeft="@+id/et_box_search_giangvien"
+        android:layout_alignTop="@+id/et_box_search_giangvien"
+        android:layout_alignBottom="@+id/et_box_search_giangvien"
+        android:layout_marginStart="263dp"
+        android:layout_marginLeft="263dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:backgroundTint="#00FFFFFF"
+        android:src="@drawable/button_search_quanly" />
+
+    <ImageButton
+        android:id="@+id/btn_edit_giangvien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#FFFFFF"
+        android:src="@drawable/icon_admin_button_edit" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_admin_teacher_account"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/et_box_search_giangvien"
+        android:layout_marginTop="5dp"
+        tools:listitem="@layout/item_admin_manage_teacheraccount"/>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "904803167577",
+    "firebase_url": "https://unionline-51efa-default-rtdb.firebaseio.com",
+    "project_id": "unionline-51efa",
+    "storage_bucket": "unionline-51efa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904803167577:android:53c7c83c6548c1366eb048",
+        "android_client_info": {
+          "package_name": "com.example.unionline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904803167577-ec3h5gdhn3ebbk580r056prpc0sqfpnb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_L8EDPMLfYl4-mj8CCBhZ4zBuuG6VcdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904803167577-ec3h5gdhn3ebbk580r056prpc0sqfpnb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

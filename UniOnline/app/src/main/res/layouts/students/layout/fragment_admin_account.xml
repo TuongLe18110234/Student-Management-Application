@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEFEF">
+
+    <View
+        android:layout_width="384dp"
+        android:layout_height="66dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/background_shadow" />
+
+    <Button
+        android:id="@+id/btn_account_qlkhoa"
+        android:layout_width="384dp"
+        android:layout_height="66dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/button_account_admin"
+        android:drawableLeft="@drawable/icon_qlkhoa"
+        android:fadingEdge="vertical"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:text="Tài khoản Quản lý khoa"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="384dp"
+        android:layout_height="66dp"
+        android:layout_below="@+id/btn_account_qlkhoa"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/background_shadow" />
+
+    <Button
+        android:id="@+id/btn_account_giangvien"
+        android:layout_width="384dp"
+        android:layout_height="66dp"
+        android:layout_below="@+id/btn_account_qlkhoa"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_account_admin"
+        android:drawableLeft="@drawable/icon_giangvien"
+        android:fadingEdge="vertical"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:text="Tài khoản Giảng viên"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="384dp"
+        android:layout_height="66dp"
+        android:layout_below="@+id/btn_account_giangvien"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/background_shadow" />
+
+    <Button
+        android:id="@+id/btn_account_sinhvien"
+        android:layout_width="384dp"
+        android:layout_height="66dp"
+        android:layout_below="@+id/btn_account_giangvien"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_account_admin"
+        android:drawableLeft="@drawable/icon_sinhvien"
+        android:fadingEdge="vertical"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:text="Tài khoản Sinh viên"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="384dp"
+        android:layout_height="66dp"
+        android:layout_below="@+id/btn_account_sinhvien"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/background_shadow"/>
+
+    <Button
+        android:id="@+id/btn_account_phuhuynh"
+        android:layout_width="384dp"
+        android:layout_height="66dp"
+        android:layout_below="@+id/btn_account_sinhvien"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_account_admin"
+        android:drawableLeft="@drawable/icon_phuhuynh"
+        android:fadingEdge="vertical"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:text="Tài khoản Phụ huynh"
+        android:textSize="18sp" />
+
+</RelativeLayout>

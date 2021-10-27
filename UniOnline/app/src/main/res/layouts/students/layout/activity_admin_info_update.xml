@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.Admin.AdminInfoUpdateActivity"
+    android:background="#EFEFEF">
+
+    <TextView
+        android:id="@+id/tv_header_quanly"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="#1F1D86"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="Cá nhân"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/iv_back_quanly"
+        android:layout_width="46dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_header_quanly"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="14dp"
+        android:backgroundTint="#00FFFFFF"
+        android:src="@drawable/icon_back_admin"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_header_quanly"
+        android:layout_marginTop="0dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/layout_admin_background_perinfo">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cập nhật hồ sơ cá nhân"
+            android:gravity="center"
+            android:fontFamily="@font/roboto_bold"
+            android:textSize="18sp"
+            android:textColor="#1F1D86"
+            android:paddingTop="11dp"
+            android:paddingBottom="11dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#919191"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#1F1D86"
+                android:text="Họ và tên: "
+                android:textSize="16sp"
+                android:fontFamily="@font/roboto_bold"/>
+            <EditText
+                android:id="@+id/et_admin_perinfo_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_admin_edittext_perinfo"
+                android:layout_marginLeft="7dp"
+                android:textSize="18sp"
+                android:hint="Le Hong Ky"
+                android:paddingRight="22dp"
+                android:paddingLeft="22dp"
+                android:paddingBottom="9dp"
+                android:paddingTop="9dp"
+                android:gravity="center_vertical"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#1F1D86"
+                android:text="Điện thoại:"
+                android:textSize="16sp"
+                android:fontFamily="@font/roboto_bold"/>
+            <EditText
+                android:id="@+id/et_admin_perinfo_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_admin_edittext_perinfo"
+                android:layout_marginLeft="7dp"
+                android:textSize="18sp"
+                android:hint="Le Hong Ky"
+                android:paddingRight="22dp"
+                android:paddingLeft="22dp"
+                android:paddingBottom="9dp"
+                android:paddingTop="9dp"
+                android:gravity="center_vertical"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#1F1D86"
+                android:text="Email:         "
+                android:textSize="16sp"
+                android:fontFamily="@font/roboto_bold"/>
+            <EditText
+                android:id="@+id/et_admin_perinfo_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_admin_edittext_perinfo"
+                android:layout_marginLeft="7dp"
+                android:textSize="18sp"
+                android:hint="Le Hong Ky"
+                android:paddingRight="22dp"
+                android:paddingLeft="22dp"
+                android:paddingBottom="9dp"
+                android:paddingTop="9dp"
+                android:gravity="center_vertical"/>
+
+        </LinearLayout>
+
+        <Button
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="15dp"
+            app:cornerRadius="5dp"
+            app:strokeColor="#1F1D86"
+            app:strokeWidth="2dp"
+            android:text="Cập nhật"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:fontFamily="@font/roboto_bold"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

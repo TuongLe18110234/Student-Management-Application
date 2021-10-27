@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.unionline">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UniOnline">
+        <activity android:name=".Views.Students.StudentLessonActivity"></activity>
+        <activity android:name=".Views.Admin.AdminParentEditActivity" />
+        <activity android:name=".Views.Admin.AdminTeacherEditActivity" />
+        <activity android:name=".Views.Admin.AdminMainActivity" />
+        <activity android:name=".Views.Admin.AdminTeacherAccountActivity" />
+        <activity android:name=".Views.Admin.AdminStudentAccountActivity" />
+        <activity android:name=".Views.Admin.AdminParentAccountActivity" />
+        <activity android:name=".Views.Admin.AdminQlkAccountActivity" />
+        <activity android:name=".Views.Admin.AdminQlkEditActivity" />
+        <activity android:name=".Views.Admin.AdminChangePasswordActivity" />
+        <activity android:name=".Views.Admin.AdminInfoUpdateActivity" />
+        <activity android:name=".Views.Teachers.TeacherListLessonsActivity" />
+        <activity android:name=".Views.Students.StudentAbsenceApplicationActivity" />
+        <activity android:name=".Views.Teachers.TeacherAttendantUpdateActivity" />
+        <activity android:name=".Views.Teachers.TeacherAttendantActivity" />
+        <activity android:name=".Views.Students.StudentMarkActivity" />
+        <activity android:name=".Views.Teachers.TeacherAddNotificationActivity" />
+        <activity android:name=".Views.Teachers.TeacherListNotificationsActivity" />
+        <activity android:name=".Views.Students.StudentClassDetailActivity" />
+        <activity android:name=".Views.Students.StudentAttendanceActivity" />
+        <activity android:name=".Views.Students.StudentEnrollmentActivity" />
+        <activity android:name=".Views.Students.StudentScheduleActivity" />
+        <activity android:name=".Views.Students.StudentTuitionActivity" />
+        <activity android:name=".Views.Students.StudentNewsActivity" />
+        <activity android:name=".Views.Students.StudentNewsDetailActivity" />
+        <activity android:name=".Views.Teachers.TeacherClassDetailActivity" />
+        <activity android:name=".Views.Teachers.TeacherListClassesActivity" />
+        <activity android:name=".Views.Teachers.TeacherMainActivity" />
+        <activity android:name=".Views.Students.StudentAbcenceAppDetailActivity" />
+        <activity android:name=".Views.Teachers.TeacherScheduleActivity" />
+        <activity android:name=".Views.Teachers.TeacherAbsenceApplicationActivity" />
+        <activity android:name=".Views.Manager.MainActivity" />
+        <activity android:name=".Views.Common.CommonLoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Views.Common.CommonForgotPasswordActivity" />
+        <activity android:name=".Views.Students.StudentMainActivity" />
+    </application>
+
+</manifest>

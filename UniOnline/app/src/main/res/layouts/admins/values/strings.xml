@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="vn_admin_account">Tài khoản</string>
+    <string name="vn_admin_notification">Thông báo</string>
+    <string name="vn_admin_personalinfo">Hồ sơ</string>
+</resources>

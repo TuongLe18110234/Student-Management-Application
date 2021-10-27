@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.Admin.AdminStudentAddFragment"
+    android:background="@drawable/layout_admin_background_perinfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/layout_admin_background_perinfo"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:paddingTop="11dp"
+            android:paddingBottom="11dp"
+            android:text="Thêm Sinh viên"
+            android:textColor="#1F1D86"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#919191" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/icon_admin_gv_add_edit" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Họ và tên:"
+                    android:textColor="#1F1D86"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/et_admin_student_add_fullname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_admin_edittext_perinfo"
+                    android:gravity="center_vertical"
+                    android:hint="Họ và tên"
+                    android:paddingLeft="22dp"
+                    android:paddingTop="7dp"
+                    android:paddingRight="22dp"
+                    android:paddingBottom="7dp"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Điện thoại"
+                    android:textColor="#1F1D86"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/et_admin_student_add_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_admin_edittext_perinfo"
+                    android:gravity="center_vertical"
+                    android:hint="Điện thoại"
+                    android:paddingLeft="22dp"
+                    android:paddingTop="7dp"
+                    android:paddingRight="22dp"
+                    android:paddingBottom="7dp"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Email:"
+                    android:textColor="#1F1D86"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/et_admin_student_add_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_admin_edittext_perinfo"
+                    android:gravity="center_vertical"
+                    android:hint="Email"
+                    android:paddingLeft="22dp"
+                    android:paddingTop="7dp"
+                    android:paddingRight="22dp"
+                    android:paddingBottom="7dp"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Chuyên ngành:"
+                    android:textColor="#1F1D86"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/et_admin_student_add_major"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_admin_edittext_perinfo"
+                    android:gravity="center_vertical"
+                    android:hint="Chuyên ngành"
+                    android:paddingLeft="22dp"
+                    android:paddingTop="7dp"
+                    android:paddingRight="22dp"
+                    android:paddingBottom="7dp"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Địa chỉ:"
+                    android:textColor="#1F1D86"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/et_admin_student_add_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/layout_admin_edittext_perinfo"
+                    android:gravity="center_vertical"
+                    android:hint="Địa chỉ"
+                    android:paddingLeft="22dp"
+                    android:paddingTop="7dp"
+                    android:paddingRight="22dp"
+                    android:paddingBottom="7dp"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="Giới tính:    "
+                        android:textColor="#1F1D86"
+                        android:textSize="16sp" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:checkedButton="@id/rb_admin_student_add_gender_male"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rb_admin_student_add_gender_male"
+                            android:layout_width="111dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto"
+                            android:text="Nam"
+                            android:textSize="16sp" />
+
+                        <RadioButton
+                            android:id="@+id/rb_admin_student_add_gender_female"
+                            android:layout_width="111dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto"
+                            android:text="Nữ"
+                            android:textSize="16sp" />
+                    </RadioGroup>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_add_new_student"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="Thêm"
+                    android:textAllCaps="false"
+                    android:textSize="18sp"
+                    app:cornerRadius="5dp"
+                    app:strokeColor="#1F1D86"
+                    app:strokeWidth="2dp" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

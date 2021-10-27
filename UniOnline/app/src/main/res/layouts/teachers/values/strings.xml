@@ -1,0 +1,41 @@
+<resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="logo">Logo</string>
+    <string name="vn_teacher_home">Trang chủ</string>
+    <string name="vn_teacher_interaction">Tương tác</string>
+    <string name="vn_teacher_account">Hồ sơ</string>
+    <string name="vn_schedule">Thời khóa biểu</string>
+    <string name="vn_class">Lớp học</string>
+    <string name="vn_mark">Điểm số</string>
+    <string name="vn_application">Đơn xin nghỉ</string>
+    <string name="vn_profile">Cá nhân</string>
+    <string name="vn_class_name">Tên lớp học</string>
+    <string name="vn_class_id">Mã lớp học</string>
+    <string name="vn_start_date">Ngày bắt đầu:</string>
+    <string name="vn_end_date">Ngày kết thúc:</string>
+    <string name="vn_room">Phòng học:</string>
+    <string name="vn_status">Trạng thái:</string>
+    <string name="vn_time">Thời gian:</string>
+    <string name="vn_process">Tiến độ</string>
+    <string name="vn_studentId">Mã SV</string>
+    <string name="vn_studentName">Họ và tên</string>
+    <string name="vn_midTerm">Giữa kỳ</string>
+    <string name="vn_final">Cuối kỳ</string>
+    <string name="vn_save">Lưu</string>
+    <string name="vn_chooseClassToSendNotification">Chọn lớp mà bạn muốn gửi thông báo</string>
+    <string name="vn_createNotification">Tạo</string>
+    <string name="vn_sendNotification">Gửi</string>
+    <string name="vn_tittle">Tiêu đề</string>
+    <string name="vn_content">Nội dung</string>
+    <string name="vn_enterTitlle">Nhập tiêu đề</string>
+    <string name="vn_enterContent">Nhập nội dung</string>
+    <string name="vn_exit">Thoát</string>
+    <string name="vn_onTime">Đúng giờ</string>
+    <string name="vn_late">Trễ</string>
+    <string name="vn_withPermission">Có phép</string>
+    <string name="vn_withoutPermission">Không phép</string>
+    <string name="vn_attendant">Điểm danh</string>
+    <string name="vn_student">Sinh viên</string>
+    <string name="vn_enterMark">Nhập điểm</string>
+    <string name="vn_chooseWeek">Tuần</string>
+</resources>

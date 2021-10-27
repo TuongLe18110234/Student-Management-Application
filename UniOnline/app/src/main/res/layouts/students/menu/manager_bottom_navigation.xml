@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_manager_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Danh sách lớp" />
+    <item
+        android:id="@+id/nav_manager_notification"
+        android:icon="@drawable/ic_baseline_dashboard_24"
+        android:title="Danh sách thông báo" />
+    <item
+        android:id="@+id/nav_manager_account"
+        android:icon="@drawable/ic_baseline_account_box_24"
+        android:title="Hồ sơ" />
+</menu>

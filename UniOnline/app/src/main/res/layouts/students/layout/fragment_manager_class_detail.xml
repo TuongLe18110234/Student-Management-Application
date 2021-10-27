@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar" />
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/manager_tabClassDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabTextAppearance="@style/CustomTextAppearanceTab">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_studentAttendenceClass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sinh viên tham gia" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_managerLeson"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bài học" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyleViewDetail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

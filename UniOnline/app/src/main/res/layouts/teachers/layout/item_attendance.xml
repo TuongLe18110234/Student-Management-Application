@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/layout_background_color">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvAttendant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/txtStudentName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="Đinh Bách Thông"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rbOnTime"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@drawable/radio_selector"
+                        android:buttonTint="@color/main_color"
+                        android:text="@string/vn_onTime"
+                        android:textColor="@color/shadow_color"
+                        android:textSize="11sp" />
+
+                    <RadioButton
+                        android:id="@+id/rbLate"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.9"
+                        android:button="@drawable/radio_selector"
+                        android:buttonTint="@color/main_color"
+                        android:text="@string/vn_late"
+                        android:textColor="@color/shadow_color"
+                        android:textSize="11sp" />
+
+                    <RadioButton
+                        android:id="@+id/rbWithPermission"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@drawable/radio_selector"
+                        android:buttonTint="@color/main_color"
+                        android:text="@string/vn_withPermission"
+                        android:textColor="@color/shadow_color"
+                        android:textSize="11sp" />
+
+                    <RadioButton
+                        android:id="@+id/rbWithoutPermission"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.1"
+                        android:button="@drawable/radio_selector"
+                        android:buttonTint="@color/main_color"
+                        android:text="@string/vn_withoutPermission"
+                        android:textColor="@color/shadow_color"
+                        android:textSize="11sp" />
+
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/etNote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/input_bg_one_line_shadow"
+                android:hint="@string/vn_notification"
+                android:padding="8dp"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

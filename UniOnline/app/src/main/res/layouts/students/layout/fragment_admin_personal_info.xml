@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEFEF">
+
+    <View
+        android:layout_width="384dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/background_shadow" />
+
+    <Button
+        android:id="@+id/btn_account_qlkhoa"
+        android:layout_width="384dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/button_account_admin"
+        android:fadingEdge="vertical"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:text="Cập nhật hồ sơ cá nhân"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="384dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/btn_account_qlkhoa"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/background_shadow" />
+
+    <Button
+        android:id="@+id/btn_account_giangvien"
+        android:layout_width="384dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/btn_account_qlkhoa"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_account_admin"
+        android:fadingEdge="vertical"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:text="Thay đổi mật khẩu"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="384dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/btn_account_giangvien"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/background_shadow" />
+
+    <Button
+        android:id="@+id/btn_account_sinhvien"
+        android:layout_width="384dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/btn_account_giangvien"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_account_admin"
+        android:fadingEdge="vertical"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:text="Đăng xuất"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

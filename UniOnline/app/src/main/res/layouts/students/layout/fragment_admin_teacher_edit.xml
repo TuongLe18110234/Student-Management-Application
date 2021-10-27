@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.Admin.AdminTeacherEditFragment"
+    android:background="@drawable/layout_admin_background_perinfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/layout_admin_background_perinfo">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chỉnh sửa Giảng viên"
+            android:gravity="center"
+            android:fontFamily="@font/roboto_bold"
+            android:textSize="18sp"
+            android:textColor="#1F1D86"
+            android:paddingTop="11dp"
+            android:paddingBottom="11dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#919191"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_admin_gv_add_edit"
+            android:layout_marginTop="15sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="#1F1D86"
+                android:text="Username:"
+                android:layout_marginBottom="8dp"/>
+            <EditText
+                android:id="@+id/et_admin_teacher_edit_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_admin_edittext_perinfo"
+                android:textSize="18sp"
+                android:hint="LeKy"
+                android:paddingRight="22dp"
+                android:paddingLeft="22dp"
+                android:paddingBottom="9dp"
+                android:paddingTop="9dp"
+                android:gravity="center_vertical"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="#1F1D86"
+                android:text="Họ và tên:"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="8dp"/>
+            <EditText
+                android:id="@+id/et_admin_teacher_edit_fullname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_admin_edittext_perinfo"
+                android:textSize="18sp"
+                android:hint="Lê Hồng Kỳ"
+                android:paddingRight="22dp"
+                android:paddingLeft="22dp"
+                android:paddingBottom="9dp"
+                android:paddingTop="9dp"
+                android:gravity="center_vertical"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="#1F1D86"
+                android:text="Điện thoại"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="8dp"/>
+            <EditText
+                android:id="@+id/et_admin_teacher_edit_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_admin_edittext_perinfo"
+                android:textSize="18sp"
+                android:hint="0123456789"
+                android:paddingRight="22dp"
+                android:paddingLeft="22dp"
+                android:paddingBottom="9dp"
+                android:paddingTop="9dp"
+                android:gravity="center_vertical"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="#1F1D86"
+                android:text="Email:"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="8dp"/>
+            <EditText
+                android:id="@+id/et_admin_teacher_edit_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_admin_edittext_perinfo"
+                android:textSize="18sp"
+                android:hint="kylh@hcmute.edu.vn"
+                android:paddingRight="22dp"
+                android:paddingLeft="22dp"
+                android:paddingBottom="9dp"
+                android:paddingTop="9dp"
+                android:gravity="center_vertical"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="#1F1D86"
+                android:text="Chuyên ngành:"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="8dp"/>
+            <EditText
+                android:id="@+id/et_admin_teacher_edit_major"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_admin_edittext_perinfo"
+                android:textSize="18sp"
+                android:hint="Công nghệ thông tin"
+                android:paddingRight="22dp"
+                android:paddingLeft="22dp"
+                android:paddingBottom="9dp"
+                android:paddingTop="9dp"
+                android:gravity="center_vertical"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:textColor="#1F1D86"
+                    android:text="Giới tính:    "
+                    android:layout_marginTop="12dp"/>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checkedButton="@id/rb_admin_teacher_edit_gender_male"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb_admin_teacher_edit_gender_male"
+                        android:layout_width="111dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:text="Nam"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb_admin_teacher_edit_gender_female"
+                        android:layout_width="111dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto"
+                        android:text="Nữ"
+                        android:textSize="16sp" />
+                </RadioGroup>
+            </LinearLayout>
+            <Button
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/roboto_bold"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Cập nhật"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                app:cornerRadius="5dp"
+                app:strokeColor="#1F1D86"
+                app:strokeWidth="2dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

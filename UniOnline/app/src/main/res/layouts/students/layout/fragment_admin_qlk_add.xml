@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_admin_background_perinfo"
+    android:minHeight="400dp"
+    android:minWidth="488dp"
+    tools:context=".Views.Admin.AdminQlkAddFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="488dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/layout_admin_background_perinfo"
+        android:minWidth="400dp"
+        android:minHeight="488dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:paddingTop="11dp"
+            android:paddingBottom="11dp"
+            android:text="Thêm Quản lý khoa"
+            android:textColor="#1F1D86"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#919191" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Họ và tên:"
+                android:textColor="#1F1D86"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_admin_qlkhoa_add_fullname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_admin_edittext_perinfo"
+                android:gravity="center_vertical"
+                android:hint="Họ và tên"
+                android:paddingLeft="22dp"
+                android:paddingTop="9dp"
+                android:paddingRight="22dp"
+                android:paddingBottom="9dp"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Điện thoại"
+                android:textColor="#1F1D86"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_admin_qlkhoa_add_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_admin_edittext_perinfo"
+                android:gravity="center_vertical"
+                android:hint="Điện thoại"
+                android:paddingLeft="22dp"
+                android:paddingTop="9dp"
+                android:paddingRight="22dp"
+                android:paddingBottom="9dp"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Email:"
+                android:textColor="#1F1D86"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_admin_qlkhoa_add_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/layout_admin_edittext_perinfo"
+                android:gravity="center_vertical"
+                android:hint="Email"
+                android:paddingLeft="22dp"
+                android:paddingTop="9dp"
+                android:paddingRight="22dp"
+                android:paddingBottom="9dp"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_admin_add_qlk"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/roboto_bold"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Thêm"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                app:cornerRadius="5dp"
+                app:strokeColor="#1F1D86"
+                app:strokeWidth="2dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
